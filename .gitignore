@@ -1,0 +1,7 @@
+dist/
+runtime/
+*.log
+*.tmp
+.tmp-*
+host-mcp
+*.deb

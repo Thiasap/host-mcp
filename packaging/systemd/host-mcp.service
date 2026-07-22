@@ -1,0 +1,13 @@
+[Unit]
+Description=host-mcp MCP server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/host-mcp serve
+Restart=on-failure
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

@@ -3,5 +3,5 @@ runtime/
 *.log
 *.tmp
 .tmp-*
-host-mcp
+/host-mcp
 *.deb
